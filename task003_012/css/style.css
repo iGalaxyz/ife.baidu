@@ -1,0 +1,65 @@
+body, p {
+    padding: 20px;
+    margin: 0;
+}
+
+div {
+    outline: 1px solid #999;
+}
+
+.main {
+    background-color: #EEE;
+    height: auto;
+    max-height: 700px;
+    overflow: hidden;
+    width: auto;
+    padding: 20px;
+    position: relative;
+}
+
+.l {
+    width: 160px;
+    float: left;
+    padding: 20px;
+}
+
+.t_logo {
+    height: 80px;
+    width: 80px;
+    float: left;
+}
+
+.t_logo img {
+    width: inherit;
+}
+
+.t_name {
+    outline: none;
+    width: 40px;
+    font-size: 10px;
+    float: left;
+    padding-left: 20px;
+}
+
+.m {
+    margin-left: 220px;
+    margin-right: 140px;
+}
+
+.r {
+    float: right;
+    width: 120px;
+    padding: 0 0 20px 0;
+}
+
+.p_logo {
+    outline: none;
+    padding: 0 20px 0 20px;
+}
+
+.p_logo img {
+    outline: 1px solid #999;
+    height: 80px;
+    margin-top: 20px;
+    width: 80px;
+}

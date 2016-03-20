@@ -1,0 +1,29 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+.greyBlock {
+    background-color: #CCC;
+    height: 200px;
+    margin: auto;
+    overflow: hidden;
+    position: absolute;  top:0;  bottom: 0;  left: 0;  right: 0;
+    width: 400px;
+}
+.yellowBlock {
+    background-color: #FC0;
+    height: 100px;
+    width: 100px;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    border-radius: 50px;
+    position: absolute;
+}
+#lt {
+    top:-50px;
+    left:-50px;
+}
+#rb {
+    bottom:-50px;
+    right:-50px;
+}

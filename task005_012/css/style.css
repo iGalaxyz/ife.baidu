@@ -85,6 +85,9 @@ body {
 .content .cInfo {
     font-size: 10px;
 }
+.content p {
+    text-indent: 2em;
+}
 
 .content img {
     max-width: 300px;

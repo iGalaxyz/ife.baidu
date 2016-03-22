@@ -1,0 +1,184 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Microsoft YaHei", serif;
+    background-color: #DEDEDE;
+}
+
+.header {
+    background-color: #333;
+    height: 60px;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.logo {
+    height: 60px;
+    float: left;
+    margin-left: 20px;
+}
+
+.logo img {
+    height: inherit;
+}
+
+.nav ul {
+    margin: 0;
+    padding: 0;
+}
+
+.nav ul li {
+    list-style-type: disc;
+    float: right;
+    width: 90px;
+    height: 60px;
+    padding-top: 20px;
+
+}
+
+.nav ul li a {
+    display: block;
+    text-decoration: none;
+    color: #FFF;
+    font-size: 12px;
+}
+
+.nav ul li:first-child a {
+    color: #999;
+}
+
+.divBox {
+    border: 1px solid #CBCBCB;
+    border-right: 3px solid #888;
+    border-bottom: 3px solid #888;
+    overflow: hidden;
+    padding: 20px;
+}
+
+.mainLeft {
+    padding-top: 80px;
+    padding-left: 20px;
+}
+
+.mainRight {
+    padding-top: 60px;
+    float: right;
+}
+
+.content {
+    padding-left: 40px;
+    margin-bottom: 20px;
+    margin-right: 440px;
+    border: 1px solid #CBCBCB;
+    border-right: 3px solid #888;
+    border-bottom: 3px solid #888;
+    background-color: #FFF;
+    position: relative;
+}
+
+.content .secondTitle, .content .cInfo {
+    color: #666;
+}
+
+.content .cInfo {
+    font-size: 10px;
+}
+
+.content img {
+    max-width: 300px;
+}
+
+.picBox {
+    width: 120px;
+    height: 120px;
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid #999;
+    text-align: center;
+    float: left;
+}
+
+.picBox p {
+    font-size: 12px;
+    margin: 0;
+    padding-bottom: 5px;
+}
+
+.picBox .pic {
+    width: 100px;
+
+}
+
+.content table {
+    width: 100%;
+}
+
+.content table .tableHead {
+    background-color: #333;
+    color: #FFF;
+}
+
+.content table .tableFoot {
+    background-color: #CCC;
+    font-weight: bold;
+}
+
+.sidebar {
+    width: 360px;
+    padding: 20px;
+    background-color: #FFF;
+    position: absolute;
+    top: 80px;
+    right: 20px;
+}
+
+.sidebar h4 {
+    border-left: 3px solid #CBCBCB;
+    padding: 10px;
+}
+
+.sidebar table{
+    text-align: right;
+    width:100%;
+    font-size: 12px;
+}
+.sidebar td+td{
+    text-align: left;
+    border: 5px solid #FFF;
+}
+.sidebar .tips {
+    color: #999;
+}
+.sidebar textarea {
+    width: 100%;
+}
+
+.sidebar .submit {
+    width:100%;
+    background-color: #3355D0;
+    color: #FFF;
+    font-size:16px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    height: 40px;
+    font-family: "Microsoft YaHei",serif;
+}
+
+.footer {
+    background-color: #000;
+    text-align: center;
+    color: #FFF;
+    height: 70px;
+    width: 100%;
+    position: relative;
+    bottom: 0;
+}
+
+.footer span {
+    bottom: 30px;
+    position: absolute;
+    font-size: 12px;
+}

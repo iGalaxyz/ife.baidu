@@ -107,6 +107,7 @@ body {
     font-size: 12px;
     margin: 0;
     padding-bottom: 5px;
+    text-indent: 0;
 }
 
 .picBox .pic {
